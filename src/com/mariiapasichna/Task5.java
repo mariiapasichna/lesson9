@@ -27,11 +27,9 @@ public class Task5 {
             if (arr[middle] == number) {
                 System.out.println("The number " + number + " is found by index " + middle);
                 return true;
-            }
-            else if (arr[middle] < number) {
+            } else if (arr[middle] < number) {
                 first = middle + 1;
-            }
-            else if (arr[middle] > number) {
+            } else if (arr[middle] > number) {
                 last = middle - 1;
             }
         }

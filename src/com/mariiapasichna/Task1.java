@@ -15,7 +15,7 @@ public class Task1 {
         int arr[] = new int[SIZE];
         createArrayAndInit(arr);
         //System.out.println(Arrays.toString(arr));
-        SortType sortType = SortType.INSERT;
+        SortType sortType = SortType.SELECT;
         com.mariiapasichna.Util.sort(arr, sortType);
         System.out.println(Arrays.toString(arr));
     }
